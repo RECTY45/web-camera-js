@@ -11,6 +11,11 @@
     <!-- Bootstrap theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        #my_camera{
+          transform: scaleX(-1);  
+        }
+    </style>
     <title>Test Web Cam</title>
 </head>
 <body>
@@ -43,8 +48,8 @@
 <script language="JavaScript">
      // Configure a few settings and attach camera 250x187
      Webcam.set({
-      width: 350,
-      height: 287,
+      width: 500,
+      height: 500,
       image_format: 'jpeg',
       jpeg_quality: 90
      });     
